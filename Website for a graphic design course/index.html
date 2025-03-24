@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PixelCraft | Design que Transforma</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Menu -->
+  <nav>
+    <div class="logo">
+      <span>PixelCraft</span>
+    </div>
+    <div class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#contato" class="cta-nav">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Design que <span>Impulsiona</span> seu Negócio</h1>
+      <p>Soluções visuais personalizadas para marcas que querem se destacar</p>
+      <a href="#contato" class="cta-button">Solicitar Orçamento</a>
+    </div>
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Design criativo">
+    </div>
+  </header>
+
+  <!-- Serviços -->
+  <section id="servicos" class="services">
+    <h2>Nossos <span>Serviços</span></h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <i class="fas fa-palette"></i>
+        <h3>Identidade Visual</h3>
+        <p>Criação de logos, cores e diretrizes de marca</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-layer-group"></i>
+        <h3>UI/UX Design</h3>
+        <p>Interfaces intuitivas e experiências digitais</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-ad"></i>
+        <h3>Materiais Gráficos</h3>
+        <p>Cartões, flyers, banners e mais</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfólio -->
+  <section id="portfolio" class="portfolio">
+    <h2>Nosso <span>Portfólio</span></h2>
+    <div class="gallery">
+      <div class="portfolio-item">
+        <img src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Projeto 1">
+        <div class="overlay">
+          <h3>Branding - Café Orgânico</h3>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Projeto 2">
+        <div class="overlay">
+          <h3>App - Finanças Pessoais</h3>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Projeto 3">
+        <div class="overlay">
+          <h3>Packaging - Linha Cosmética</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="about">
+    <div class="about-content">
+      <h2>Sobre a <span>PixelCraft</span></h2>
+      <p>Somos um estúdio de design focado em criar soluções visuais que contam histórias e geram resultados. Combinando criatividade com estratégia, ajudamos marcas a se comunicarem de forma memorável.</p>
+      <ul class="about-list">
+        <li><i class="fas fa-check"></i> +150 projetos entregues</li>
+        <li><i class="fas fa-check"></i> Equipe especializada</li>
+        <li><i class="fas fa-check"></i> Processo colaborativo</li>
+      </ul>
+    </div>
+    <div class="about-image">
+      <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Equipe PixelCraft">
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="contact">
+    <h2>Pronto para <span>Transformar</span> sua Marca?</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Seu Nome" required>
+      <input type="email" placeholder="Seu E-mail" required>
+      <select required>
+        <option value="" disabled selected>Selecione um serviço</option>
+        <option>Identidade Visual</option>
+        <option>UI/UX Design</option>
+        <option>Materiais Gráficos</option>
+        <option>Outro</option>
+      </select>
+      <textarea placeholder="Conte-nos sobre seu projeto"></textarea>
+      <button type="submit" class="cta-button">Enviar Mensagem</button>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-col">
+        <h3>PixelCraft</h3>
+        <p>Design estratégico para resultados extraordinários</p>
+      </div>
+      <div class="footer-col">
+        <h3>Contato</h3>
+        <p>contato@pixelcraft.com.br</p>
+        <p>(11) 98765-4321</p>
+      </div>
+      <div class="footer-col">
+        <h3>Redes Sociais</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-behance"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2023 PixelCraft. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Menu mobile
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
